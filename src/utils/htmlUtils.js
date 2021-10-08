@@ -45,16 +45,9 @@ class HtmlUtils{
         this.URL = URL;
     }
 
-    static browserLunched = false;
 
     async lunchBrowser(options = {viewPort : [1440 , 1700]}){
         
-        if(this.browserLunched){
-            await this.reloadPage();
-            return;
-        }
-
-        this.browserLunched = true;
 
         this.browser = await puppeteer.launch({
             headless: true,
