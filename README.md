@@ -32,7 +32,7 @@ let technicalImage = await new Technical('BTC')   // Technical class DOSE NOT ac
 .setTimeFrame("2h")     // Technical class DOSE NOT accept '3h' timeframe
 .save("./technical.png")
 
-console.log(chartImage)
+console.log(technicalImage)
 ```
 output: (The image path after being created)
 ```
