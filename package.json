@@ -1,21 +1,31 @@
 {
   "name": "chart-sc",
-  "version": "0.9.0",
-  "description": "A simple module to get screenshots of charts / statistics from websites like tradingview.com",
+  "version": "1.0.1",
+  "description": "A simple module to get screenshots of charts / statistics from platforms like tradingview.com",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Keivan-sf/chart-sc.git"
   },
   "dependencies": {
     "canvas": "^2.8.0",
     "puppeteer-core": "^10.4.0"
   },
   "keywords": [
-    "chart",
     "screenshot",
-    "tradingview",
-    "crypto"
+    "chart",
+    "statistics",
+    "crypto",
+    "cryptocurrency",
+    "tradingview"
   ],
   "author": "keivan",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Keivan-sf/chart-sc/issues"
+  },
+  "homepage": "https://github.com/Keivan-sf/chart-sc#readme"
 }
