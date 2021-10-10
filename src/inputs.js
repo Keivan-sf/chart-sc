@@ -70,7 +70,7 @@ class tech extends TokenObject{
 class chart extends TokenObject{
 
         /**
-        * @param {String} token token pain , E.g.: BTCUSD
+        * @param {String} token token pair , E.g.: BTCUSD
         */
 
          constructor(token){
