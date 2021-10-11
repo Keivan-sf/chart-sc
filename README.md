@@ -27,7 +27,7 @@ output: (The image path after being created)
 ### Getting technical summery of a token from TradingView
 
 ```js
-let technicalImage = await new Technical('BTC')   // Technical class DOSE NOT accept pairs like 'BTSUSD'
+let technicalImage = await new Technical('BTC')   // Technical class DOSE NOT accept pairs like 'BTCUSD'
 .setStyle("dark")
 .setTimeFrame("2h")     // Technical class DOSE NOT accept '3h' timeframe
 .save("./technical.png")
