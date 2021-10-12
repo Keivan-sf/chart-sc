@@ -4,7 +4,7 @@ const { createCanvas , loadImage } = require('canvas');
 
 exports.technichal = (path) => saveImage(path[0] , path[1] , [907 , 758] , [1440 , 1700] , [-266 , -685]);
 
-exports.chart = (path) =>  saveImage(path[0] , path[1] , [827 , 680] , [1200 , 800] , [ -56 , -39]);
+exports.chart = (path) =>  saveImage(path[0] , path[1] , [826 , 679] , [1200 , 800] , [ -56 , -39]);
 
 const saveImage = (buffer , path , canvasSize = [0 , 0] , imageSize = [0 , 0] , margin = [0 , 0]) => new Promise(async(resolve , reject)=>{
 
