@@ -100,6 +100,7 @@ class TechnicalPage extends HtmlUtils{
 
             let acceptCookie = document.querySelector('.button-qM2OSl9-');
             if(acceptCookie) acceptCookie.click();
+            document.querySelector('.tv-symbol-header__first-line').innerHTML = "";
 
         })
 
