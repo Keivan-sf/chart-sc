@@ -116,7 +116,7 @@ class TechnicalPage extends HtmlUtils{
 
                 await this.page.evaluate(() =>{
 
-                    document.querySelectorAll('.button-1cy7XKgV')[7].click();
+                    document.querySelectorAll('.button-oVcEZzq1')[7].click();
 
                 })
 
@@ -128,7 +128,7 @@ class TechnicalPage extends HtmlUtils{
                         
                 await this.page.evaluate(() =>{
     
-                    document.querySelectorAll('.button-1cy7XKgV')[8].click();
+                    document.querySelectorAll('.button-oVcEZzq1')[8].click();
     
                 })
 
@@ -140,7 +140,7 @@ class TechnicalPage extends HtmlUtils{
                         
                 await this.page.evaluate(() =>{
 
-                    document.querySelectorAll('.button-1cy7XKgV')[9].click();
+                    document.querySelectorAll('.button-oVcEZzq1')[9].click();
     
                 })
 
@@ -152,7 +152,7 @@ class TechnicalPage extends HtmlUtils{
                         
                 await this.page.evaluate(() =>{
 
-                    document.querySelectorAll('.button-1cy7XKgV')[4].click();
+                    document.querySelectorAll('.button-oVcEZzq1')[4].click();
     
                 })
 
@@ -164,7 +164,7 @@ class TechnicalPage extends HtmlUtils{
                         
                 await this.page.evaluate(() =>{
     
-                    document.querySelectorAll('.button-1cy7XKgV')[5].click();
+                    document.querySelectorAll('.button-oVcEZzq1')[5].click();
     
                 })
 
@@ -176,7 +176,7 @@ class TechnicalPage extends HtmlUtils{
                         
                 await this.page.evaluate(() =>{
     
-                    document.querySelectorAll('.button-1cy7XKgV')[6].click();
+                    document.querySelectorAll('.button-oVcEZzq1')[6].click();
     
                 })
 
@@ -192,41 +192,41 @@ class TechnicalPage extends HtmlUtils{
         await this.page.evaluate(() => {
             
 
-            let dom = document.querySelector('.technicalsTab-DPgs-R4s');
+            let dom = document.querySelector('.technicalsTab-RaUvtPLE');
             dom.setAttribute('style' , `background-color : #081424`);
     
             // tablesWrapper-DPgs-R4s
     
-            let border = document.querySelector('.tablesWrapper-DPgs-R4s');
+            let border = document.querySelector('.tablesWrapper-RaUvtPLE');
             border.setAttribute('style' , 'border-top: none')
     
             // arrowMain-2qn7A4BC
     
-            document.querySelectorAll('.arrowMain-2qn7A4BC').forEach(element =>{
+            document.querySelectorAll('.arrowMain-bKC4jg1o').forEach(element =>{
                 element.setAttribute('style' , 'background-color : #fff');
             });
             
             // dot-2qn7A4BC
             
-             document.querySelectorAll('.dot-2qn7A4BC').forEach(element =>{
+             document.querySelectorAll('.dot-1ms4EWzs').forEach(element =>{
                 element.setAttribute('style' , 'border-color : #fff');
             });
             
             // speedometerText-2qn7A4BC
     
-            document.querySelectorAll('.speedometerText-2qn7A4BC').forEach(element => {
+            document.querySelectorAll('.speedometerText-bKC4jg1o').forEach(element => {
                 element.setAttribute('style' , 'color : #fff');
             });
     
             // speedometerTitle-DPgs-R4s
     
-            document.querySelectorAll('.speedometerTitle-DPgs-R4s').forEach(element => {
+            document.querySelectorAll('.speedometerTitle-RaUvtPLE').forEach(element => {
                 element.setAttribute('style' , 'color : #fff');
             });
     
             // counterTitle-DPgs-R4s
     
-            document.querySelectorAll('.counterTitle-DPgs-R4s').forEach(element => {
+            document.querySelectorAll('.counterTitle-RaUvtPLE').forEach(element => {
                 element.setAttribute('style' , 'color : #fff');
             });
     
