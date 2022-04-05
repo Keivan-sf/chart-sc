@@ -476,11 +476,11 @@ class ChartPage extends HtmlUtils{
                 await sleep(100)
     
     
-                let apearanceColor = document.querySelector(".swatch-pz6IRAmC[style='color: rgb(19, 23, 34);']")
+                let apearanceColor = document.querySelector(".swatch-qgksmXjR[style='color: rgb(19, 23, 34);']")
     
                 if(!apearanceColor){
                     await sleep(1000);
-                    apearanceColor = document.querySelector(".swatch-pz6IRAmC[style='color: rgb(19, 23, 34);']")
+                    apearanceColor = document.querySelector(".swatch-qgksmXjR[style='color: rgb(19, 23, 34);']")
                 } 
     
                 apearanceColor.click();
@@ -500,11 +500,11 @@ class ChartPage extends HtmlUtils{
                 await sleep(100)
                 
     
-                let textColorSelect = document.querySelectorAll(".white-pz6IRAmC")[1]
+                let textColorSelect = document.querySelectorAll(".white-qgksmXjR")[1]
     
                 if(!textColorSelect){
                     await sleep(1000);
-                    textColorSelect = document.querySelectorAll(".white-pz6IRAmC")[1]
+                    textColorSelect = document.querySelectorAll(".white-qgksmXjR")[1]
                 } 
     
                 textColorSelect.click();
