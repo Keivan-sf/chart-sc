@@ -264,7 +264,7 @@ class ChartPage extends HtmlUtils{
 
         await this.page.evaluate(async()=>{
 
-            let acceptCookie = document.querySelector('.button-qM2OSl9-');
+            let acceptCookie = document.querySelector('.button-YKkCvwjV');
             if(acceptCookie) acceptCookie.click();
 
         })
@@ -276,11 +276,11 @@ class ChartPage extends HtmlUtils{
 
                 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve , ms));
 
-                let changeTimeFrame = document.querySelector('.value-2y-wa9jT');
+                let changeTimeFrame = document.querySelector('.value-e0RYyFXU');
                     
                 if(!changeTimeFrame){
                     await sleep(1000);
-                    changeTimeFrame = document.querySelector('.value-2y-wa9jT');
+                    changeTimeFrame = document.querySelector('.value-e0RYyFXU');
                 }
 
                 changeTimeFrame.click();
@@ -297,11 +297,11 @@ class ChartPage extends HtmlUtils{
 
                         const sleep = (ms) => new Promise((resolve) => setTimeout(resolve , ms));
                         
-                        let monthly = document.querySelector('.item-2IihgTnv[data-value="1D"]')
+                        let monthly = document.querySelector('.item-4TFSfyGO[data-value="1D"]')
     
                         if(!monthly){
                             await sleep(1000);
-                            monthly = document.querySelector('.item-2IihgTnv[data-value="1D"]')
+                            monthly = document.querySelector('.item-4TFSfyGO[data-value="1D"]')
                         }
                         monthly.click();
         
@@ -317,11 +317,11 @@ class ChartPage extends HtmlUtils{
     
                         const sleep = (ms) => new Promise((resolve) => setTimeout(resolve , ms));
 
-                        let weekly = document.querySelector('.item-2IihgTnv[data-value="1W"]')
+                        let weekly = document.querySelector('.item-4TFSfyGO[data-value="1W"]')
     
                         if(!weekly){
                             await sleep(1000);
-                            weekly = document.querySelector('.item-2IihgTnv[data-value="1W"]')
+                            weekly = document.querySelector('.item-4TFSfyGO[data-value="1W"]')
                         }
                         weekly.click();
         
@@ -337,11 +337,11 @@ class ChartPage extends HtmlUtils{
 
                         const sleep = (ms) => new Promise((resolve) => setTimeout(resolve , ms));
                         
-                        let monthly = document.querySelector('.item-2IihgTnv[data-value="1M"]')
+                        let monthly = document.querySelector('.item-4TFSfyGO[data-value="1M"]')
     
                         if(!monthly){
                             await sleep(1000);
-                            monthly = document.querySelector('.item-2IihgTnv[data-value="1M"]')
+                            monthly = document.querySelector('.item-4TFSfyGO[data-value="1M"]')
                         }
                         monthly.click();
         
@@ -357,11 +357,11 @@ class ChartPage extends HtmlUtils{
 
                         const sleep = (ms) => new Promise((resolve) => setTimeout(resolve , ms));
 
-                        let time = document.querySelector('.item-2IihgTnv[data-value="60"]')
+                        let time = document.querySelector('.item-4TFSfyGO[data-value="60"]')
     
                         if(!time){
                             await sleep(1000);
-                            time = document.querySelector('.item-2IihgTnv[data-value="60"]')
+                            time = document.querySelector('.item-4TFSfyGO[data-value="60"]')
                         }
                         time.click();
         
@@ -377,11 +377,11 @@ class ChartPage extends HtmlUtils{
 
                         const sleep = (ms) => new Promise((resolve) => setTimeout(resolve , ms));
 
-                        let time = document.querySelector('.item-2IihgTnv[data-value="120"]')
+                        let time = document.querySelector('.item-4TFSfyGO[data-value="120"]')
     
                         if(!time){
                             await sleep(1000);
-                            time = document.querySelector('.item-2IihgTnv[data-value="120"]')
+                            time = document.querySelector('.item-4TFSfyGO[data-value="120"]')
                         }
                         time.click();
         
@@ -397,11 +397,11 @@ class ChartPage extends HtmlUtils{
 
                         const sleep = (ms) => new Promise((resolve) => setTimeout(resolve , ms));
 
-                        let time = document.querySelector('.item-2IihgTnv[data-value="180"]')
+                        let time = document.querySelector('.item-4TFSfyGO[data-value="180"]')
     
                         if(!time){
                             await sleep(1000);
-                            time = document.querySelector('.item-2IihgTnv[data-value="180"]')
+                            time = document.querySelector('.item-4TFSfyGO[data-value="180"]')
                         }
                         time.click();
         
@@ -417,11 +417,11 @@ class ChartPage extends HtmlUtils{
 
                         const sleep = (ms) => new Promise((resolve) => setTimeout(resolve , ms));
 
-                        let time = document.querySelector('.item-2IihgTnv[data-value="240"]')
+                        let time = document.querySelector('.item-4TFSfyGO[data-value="240"]')
     
                         if(!time){
                             await sleep(1000);
-                            time = document.querySelector('.item-2IihgTnv[data-value="240"]')
+                            time = document.querySelector('.item-4TFSfyGO[data-value="240"]')
                         }
                         time.click();
         
@@ -441,22 +441,22 @@ class ChartPage extends HtmlUtils{
 
             await this.page.evaluate(async()=>{
             
-                let settingTag = document.querySelector('.iconButton-pzOKvpP8');
+                let settingTag = document.querySelector('.iconButton-Kbdz4qEM');
     
                 if(!settingTag){
                     await sleep(1000);
-                    settingTag = document.querySelector('.iconButton-pzOKvpP8');
+                    settingTag = document.querySelector('.iconButton-Kbdz4qEM');
                 } 
     
                 settingTag.click();
     
                 await sleep(100)
     
-                let apearanceTag = document.querySelectorAll(".tab-DggvOZTm")[3];
+                let apearanceTag = document.querySelectorAll(".tab-Zcmov9JL")[3];
     
                 if(!apearanceTag){
                     await sleep(1000);
-                    apearanceTag = document.querySelectorAll(".tab-DggvOZTm")[3];
+                    apearanceTag = document.querySelectorAll(".tab-Zcmov9JL")[3];
                 } 
     
                 apearanceTag.click();
@@ -464,23 +464,23 @@ class ChartPage extends HtmlUtils{
                 await sleep(100)
                 
     
-                let apearanceSelection = document.querySelector(".swatch-3gSLMlhu");
+                let apearanceSelection = document.querySelector(".swatch-pz6IRAmC");
     
                 if(!apearanceSelection){
                     await sleep(1000);
-                    apearanceSelection = document.querySelector(".swatch-3gSLMlhu");
-                } 
+                    apearanceSelection = document.querySelector(".swatch-pz6IRAmC");
+                }
     
                 apearanceSelection.click();
                 
                 await sleep(100)
     
     
-                let apearanceColor = document.querySelector(".swatch-vBKBthtD[style='color: rgb(19, 23, 34);']")
+                let apearanceColor = document.querySelector(".swatch-pz6IRAmC[style='color: rgb(19, 23, 34);']")
     
                 if(!apearanceColor){
                     await sleep(1000);
-                    apearanceColor = document.querySelector(".swatch-vBKBthtD[style='color: rgb(19, 23, 34);']")
+                    apearanceColor = document.querySelector(".swatch-pz6IRAmC[style='color: rgb(19, 23, 34);']")
                 } 
     
                 apearanceColor.click();
@@ -488,11 +488,11 @@ class ChartPage extends HtmlUtils{
                 await sleep(100)
     
     
-                let textColor = document.querySelectorAll(".swatch-3gSLMlhu")[4]
+                let textColor = document.querySelectorAll(".swatch-pz6IRAmC")[4]
     
                 if(!textColor){
                     await sleep(1000);
-                    textColor = document.querySelectorAll(".swatch-3gSLMlhu")[4]
+                    textColor = document.querySelectorAll(".swatch-pz6IRAmC")[4]
                 } 
     
                 textColor.click();
@@ -500,18 +500,18 @@ class ChartPage extends HtmlUtils{
                 await sleep(100)
                 
     
-                let textColorSelect = document.querySelectorAll(".white-vBKBthtD")[1]
+                let textColorSelect = document.querySelectorAll(".white-pz6IRAmC")[1]
     
                 if(!textColorSelect){
                     await sleep(1000);
-                    textColorSelect = document.querySelectorAll(".white-vBKBthtD")[1]
+                    textColorSelect = document.querySelectorAll(".white-pz6IRAmC")[1]
                 } 
     
                 textColorSelect.click();
     
                 await sleep(100)
     
-                let closePage = document.querySelector(".close-2sL5JydP")
+                let closePage = document.querySelector(".close-tuOy5zvD")
                 closePage.click();
     
                 function sleep(ms){
