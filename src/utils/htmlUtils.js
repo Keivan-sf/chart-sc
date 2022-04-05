@@ -1,5 +1,5 @@
 'use strict';
-const puppeteer = require('puppeteer')
+const puppeteer = require('puppeteer-core')
 
 const minimal_args = [
     '--autoplay-policy=user-gesture-required',
