@@ -1,6 +1,6 @@
 {
   "name": "chart-sc",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "A simple module to get screenshots of charts / statistics from platforms like tradingview.com",
   "main": "index.js",
   "scripts": {
