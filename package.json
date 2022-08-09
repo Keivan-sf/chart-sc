@@ -4,6 +4,7 @@
     "description": "A simple module to get screenshots of charts / statistics from platforms like tradingview.com",
     "main": "index.js",
     "scripts": {
+        "start": "ts-node src/index.ts",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
