@@ -1,31 +1,38 @@
 {
-  "name": "chart-sc",
-  "version": "1.0.4",
-  "description": "A simple module to get screenshots of charts / statistics from platforms like tradingview.com",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Keivan-sf/chart-sc.git"
-  },
-  "dependencies": {
-    "canvas": "^2.8.0",
-    "puppeteer-core": "^10.4.0"
-  },
-  "keywords": [
-    "screenshot",
-    "chart",
-    "statistics",
-    "crypto",
-    "cryptocurrency",
-    "tradingview"
-  ],
-  "author": "keivan",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Keivan-sf/chart-sc/issues"
-  },
-  "homepage": "https://github.com/Keivan-sf/chart-sc#readme"
+    "name": "chart-sc",
+    "version": "1.0.4",
+    "description": "A simple module to get screenshots of charts / statistics from platforms like tradingview.com",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Keivan-sf/chart-sc.git"
+    },
+    "dependencies": {
+        "@types/node": "^18.6.5",
+        "canvas": "^2.8.0",
+        "puppeteer-core": "^10.4.0",
+        "ts-node": "^10.9.1",
+        "ts-node-dev": "^2.0.0",
+        "typescript": "^4.7.4"
+    },
+    "keywords": [
+        "screenshot",
+        "chart",
+        "statistics",
+        "crypto",
+        "cryptocurrency",
+        "tradingview"
+    ],
+    "author": "keivan",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Keivan-sf/chart-sc/issues"
+    },
+    "homepage": "https://github.com/Keivan-sf/chart-sc#readme",
+    "devDependencies": {
+        "tsc": "^2.0.4"
+    }
 }
